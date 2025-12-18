@@ -5,7 +5,7 @@ import numpy as np
 model = YOLO("yolov8s-seg.pt")
 
 vid_name = "cat2"
-cap = cv2.VideoCapture(f"video/{vid_name}.mp4")
+cap = cv2.VideoCapture(f"./{vid_name}.mp4")
 
 output_dir = f"output/{vid_name}"
 
